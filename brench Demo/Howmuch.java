@@ -19,7 +19,7 @@ public class Howmuch{
 
 		 int a = 100;
 		 if (discount<=10){
-		 	System.out.println((price*(1-discount/a) + "입니다"));
+		 	System.out.println((sum*(a-discount)/a + "입니다"));
 		 }else{
 		 	System.out.println("안 팔아요");
 		 }
