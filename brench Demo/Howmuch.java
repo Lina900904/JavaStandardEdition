@@ -14,15 +14,17 @@ public class Howmuch{
 		int sum = amount * price;
 	System.out.println("총 금액은" + sum +  "원입니다");
 	System.out.println("비싸요 깍아주세요");
+		
 	System.out.println("몇 퍼센트 DC해 드릴까요");
 		 int discount = result.nextInt();
+		 String b = "안팔아요";
 
 		 int a = 100;
 		 if (discount<=10){
-		 	System.out.println((sum*(a-discount)/a + "입니다"));
-		 }else{
-		 	System.out.println("안 팔아요");
+		 	b = (sum*(a-discount)/a + "입니다");
+		
 		 }
+		 System.out.println(b);
 
 }
 }
